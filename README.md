@@ -1,1 +1,1 @@
-# landing-page
+Second project on The Odin Project's curriculum. A design is presented and we must build a web page accordingly, utilizing the HTML, CSS and Flexbox concepts learned so far in the course.
