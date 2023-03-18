@@ -88,3 +88,61 @@ button {
     margin-left: auto;
     min-width: 50%;
 }
+
+.information {
+    padding: 0 18%;
+    padding-bottom:100px;
+}
+
+.info-text {
+    display: flex;
+    justify-content: center;
+    margin: 48px 0;
+    font-weight: 900;
+    font-size:36px;
+    color:#1F2937;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 170px;
+}
+
+.img {
+    color:white;
+    width: 170px;
+    height: 170px;
+    border-radius: 10%;
+    border: 3px solid #3882F6;
+}
+
+.quote-block {
+    background-color: lightgray;
+    flex:display;
+    flex-direction: column;
+    padding: 150px 22%;
+}
+
+.quote-text {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+}
