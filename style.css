@@ -126,16 +126,17 @@ button {
 }
 
 .quote-block {
-    background-color: lightgray;
+    background-color: #E5E7EB;
     flex:display;
     flex-direction: column;
-    padding: 150px 22%;
+    padding: 150px 25.5%;
 }
 
 .quote-text {
-    font-size: 40px;
+    font-size: 36px;
     font-style: italic;
     font-weight: 100;
+    color: #1F2937;
     display: flex;
     justify-content: center;
 }
@@ -145,4 +146,30 @@ button {
     font-weight: 900;
     display: flex;
     justify-content: flex-end;
+}
+
+.call-to-action {
+    margin: 100px 18%;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight:700;
+}
+
+.cta-right {
+    display: flex;
+    margin-left: auto;
+}
+
+.cta-right > button {
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 0 48px;
 }
